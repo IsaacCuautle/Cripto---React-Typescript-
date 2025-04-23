@@ -1,6 +1,6 @@
 import axios from "axios";
 
-import { CryptoCurrencyResponseSchema, cryptoPriceSchema } from "../schema/crypto-schema";
+import { CryptoCurrencyResponseSchema, CryptoPriceSchema } from "../schema/crypto-schema";
 import { Pair } from "../types";
 
 // Obtiene las cryptomonedas de la API
@@ -23,12 +23,10 @@ export const getCryptos = async () => {
 export const fetchCurrentCryptoPrice = async (pair: Pair) => {
   const url = `https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${pair.cryptocurrency}&tsyms=${pair.currency}`;
   const { data: {DISPLAY}} = await axios(url);
-  const result = cryptoPriceSchema.safeParse(DISPLAY[pair.cryptocurrency][pair.currency]) 
-
-  console.log(result);
+  const result = CryptoPriceSchema.safeParse(DISPLAY[pair.cryptocurrency][pair.currency]) 
   
   if(result.success) {
-    console.log(result.data);
+    return result.data;
   }
 };
 

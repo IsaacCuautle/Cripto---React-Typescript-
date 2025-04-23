@@ -23,7 +23,7 @@ export const PairSchema = z.object({
   cryptocurrency: z.string()
 })
 
-export const cryptoPriceSchema = z.object({
+export const CryptoPriceSchema = z.object({
   IMAGEURL: z.string(),
   PRICE: z.string(),
   HIGHDAY: z.string(),
