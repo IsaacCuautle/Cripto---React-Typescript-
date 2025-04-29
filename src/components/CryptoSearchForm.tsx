@@ -69,6 +69,7 @@ export default function CriptoSearchForm() {
         </div>
 
         <input type="submit" value="Cotizar" />
+
       </form>
     </>
   );
