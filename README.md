@@ -11,7 +11,7 @@ Aplicación web para consultar en tiempo real la cotización de criptomonedas fr
 Para ejecutar el proyecto, sigue estos pasos:
 
 - **Clonar el repositorio**:  
-  `git clone https://github.com/tu-usuario/tu-repositorio.git`
+  `git clone https://github.com/IsaacCuautle/Crypto-React-Typescript.git`
 - **Instalar dependencias**:  
   `npm install`
 - **Ejecutar el proyecto**:  
