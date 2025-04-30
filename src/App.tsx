@@ -20,11 +20,10 @@ function App() {
 
         <div className="content">
           <CryptoSearchForm />
-          
-          { /* Mostrar la cotizacion */ }
+
+          {/* Mostrar la cotizacion */}
           <CryptoPriceDysplay />
         </div>
-      
       </div>
     </>
   );
