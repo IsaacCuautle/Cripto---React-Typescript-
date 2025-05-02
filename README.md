@@ -4,7 +4,24 @@ Aplicación web para consultar en tiempo real la cotización de criptomonedas fr
 
 ## Imágenes del proyecto
 
-(Captura de la pantalla principal de la app.)
+<div
+  class="imagenes"  
+  style="
+  display: flex;"
+>
+<img 
+  style="
+    width: 600px; 
+    heigth: 400px; "
+  src='https://github.com/user-attachments/assets/cd78df88-105d-41cf-a9cf-ea3f5f526249'
+/>
+<img 
+  style="
+    width: 300px; 
+    heigth: 400px; "
+  src='https://github.com/user-attachments/assets/77f6f90b-e079-4bac-aba9-1675076c037a' 
+/>
+</div>
 
 ## Instrucciones
 
